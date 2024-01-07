@@ -1,0 +1,169 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.form-container {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* Ajoutez cette ligne */
+    margin-top: 20px;
+}
+
+
+/* Styles pour la version desktop */
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url('../images/bg_desktop.svg');
+        display: flex;
+        justify-content: space-around; /* Espacement égal autour des éléments */
+        align-items: center; /* Centrez les éléments dans le sens vertical */
+        height: 100vh; /* Utilisez toute la hauteur de la fenêtre */
+        margin: 0; /* Supprimez la marge par défaut du corps */
+    }
+
+    .promotion,
+    .form-container {
+        width: 45%; /* Chaque bloc prend la moitié de la largeur */
+        padding: 20px;
+        text-align: center; /* Centrez le texte horizontalement */
+        box-sizing: border-box;
+    }
+
+    .grand-lancement {
+        color: #917956;
+        font-size: 50px;
+        font-weight: 900; /* Black */
+    }
+
+    .septembre {
+        color: #FFFFFF;
+        font-size: 40px;
+        font-weight: 300; /* Light */
+    }
+
+    .decouvrez {
+        color: #FFFFFF;
+        font-size: 28px;
+        font-weight: 300; /* Light */
+    }
+
+    .mention-legale {
+        color: #FFFFFF;
+        font-size: 10px;
+        font-weight: 300; /* Light */
+    }
+
+    .inscrivez-vous {
+        color: #000000;
+        font-size: 41px;
+        font-weight: 300; /* Light */
+    }
+
+    .formulaire-texte {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 500; /* Medium */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="Ville"] {
+        color: #696F6F;
+        background-color: #F1F5F3;
+        font-size: 16px;
+        font-weight: italic;
+    }
+
+    input[type="time"],
+    input[type="date"] {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 500; /* Medium */
+        color: #696F6F;
+        background-color: #F1F5F3;
+    }
+
+    .asterisque {
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+        font-weight: 500; /* Medium */
+    }
+
+    .envoyer {
+        color: #FFFFFF;
+        background-color: #917956;
+        font-size: 22px;
+        border-radius: 25px;
+        font-weight: 300; /* Light */
+    }
+}
+
+/* Styles pour la version mobile */
+@media only screen and (max-width: 767px) {
+body{
+    background-image: url('../images/bg_mobile.svg');
+}
+    .grand-lancement {
+        color: #917956;
+        font-size: 28px;
+        font-weight: 900; /* Black */
+    }
+
+    .septembre {
+        color: #FFFFFF;
+        font-size: 22px;
+        font-weight: 300; /* Light */
+    }
+
+    .decouvrez {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 300; /* Light */
+    }
+
+    .mention-legale {
+        color: #FFFFFF;
+        font-size: 10px;
+        font-weight: 300; /* Light */
+    }
+
+    .inscrivez-vous {
+        color: #000000;
+        font-size: 25px;
+        font-weight: 300; /* Light */
+    }
+
+    .formulaire-texte {
+        color: #000000;
+        font-size: 12px;
+        font-weight: 500; /* Medium */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="time"] {
+        color: #696F6F;
+        background-color: #F1F5F3;
+        font-size: 12px;
+        font-weight: italic;
+    }
+
+    .asterisque {
+        font-family: 'Lato', sans-serif;
+        font-size: 10px;
+        font-weight: 500; /* Medium */
+    }
+
+    .envoyer {
+        color: #FFFFFF;
+        background-color: #917956;
+        font-size: 22px;
+        border-radius: 25px;
+        font-weight: 300; /* Light */
+    }
+}
