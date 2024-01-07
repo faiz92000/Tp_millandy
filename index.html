@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <!-- Partie Promotion à gauche -->
+    <div class="promotion">
+        <img src="assets/images/logo_millandy.svg" alt="Logo 1">
+        <h1 class="grand-lancement">Grand lancement</h1>
+        <h2 class="septembre">SEPTEMBRE 2023</h2>
+        <h3 class="decouvrez">DÉCOUVREZ
+            <br>NOS <strong>APPARTEMENTS NEUFS</strong>
+            <br>À <strong>MEUDON</strong></h3>
+        <!-- Espace ici -->
+        <img src="assets/images/logo_dbi.svg" alt="Logo 2">
+        <p class="mention-legale">Programé et réalisé par Demathieu et Bard Immobilier, 17<br> rue Venizelos 57950 Montingy-les-Metz,
+             SAS au capital de 30 000 000 €<br> RCS: 353 708 746. SIRET 35370874600014. </p>
+    </div>
+
+    <!-- Formulaire à droite -->
+    <div class="form-container">
+        <h2 class="inscrivez-vous">INSCRIVEZ-VOUS</h2>
+        <p class="formulaire-texte">Remplissez le formulaire pour télécharger la brochure pour<br> plus d'informations sur la résidence Millandy à Meudon.</p>
+        
+            <input type="text" id="nom" name="nom" placeholder="Nom*" required>
+            <input type="email" id="email" name="email" placeholder="Email*" required>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom*" required>
+            <input type="tel" id="telephone" name="telephone" placeholder="Téléphone*" required>
+            <input type="text" id="Ville" name="Ville" placeholder="Code postal/Ville*" required>
+
+            <label for="heure">Si vous souhaitez être rappelé<br>choissisez une date ainsi qu'une heure:</label>
+            <section class="double">
+            <input type="date" id="date" name="date">
+            <input type="time" id="heure" name="heure">
+            </section>
+            <p class="annotation">* Afin de pouvoir répondre à votre demande d'informations,<br> ces champs sont obligatoires.</p>
+            <input type="checkbox" id="info" name="info">
+            <label for="info">Recevoir des informations</label>
+           
+
+            <button type="submit" class="envoyer">Envoyer</button>
+        </form>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
