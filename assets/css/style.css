@@ -12,7 +12,7 @@ body {
 }
 
 
-/* Styles pour la version desktop */
+
 @media only screen and (min-width: 768px) {
     body{
         background-image: url('../images/bg_desktop.svg');
